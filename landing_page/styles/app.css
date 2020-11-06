@@ -1,0 +1,124 @@
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(fonts/HelveticaNeue.ttf);
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(fonts/HelveticaNeue-Bold.ttf);
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold !important;
+}
+
+body {
+  font-family: 'HelveticaNeue' !important;
+}
+
+.enquiry-form-section {
+  background-color: #009FC3;
+  color: #ffffff;;
+}
+
+.nav-top-phone {
+  color: #009FC3 !important;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.form-intro {
+  background-color: #ffffff;
+  color: #009FC3;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+input.form-control {
+  border-radius: 0;
+}
+
+.btn-submit {
+  color: #ffffff;
+  background-color: #009FC3;
+  border: 1px solid #ffffff;
+  padding: 1em 2em 1em 2em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.btn-inverted {
+  color: #009FC3;
+  background-color: #ffffff;
+  border: 1px solid #009FC3;
+  padding: 1em 2em 1em 2em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.learn-more {
+  background-color: #DFEFF6;
+  padding: 5em;
+}
+
+.image-label {
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.learn-more img {
+  width: 100%;
+}
+
+footer {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+footer a {
+  color: #009FC3;
+}
+
+footer.d-sm-none a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.header-image-caption {
+  position: absolute;
+  top: 15px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #009FC2;
+  padding: 2em;
+  line-height: 1em;
+}
+
+.left-md {
+  text-align: left;
+}
+
+.right-md {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-image-caption {
+    font-size: 20px;
+  }
+
+  .brand-logo {
+    max-width: 200px;
+  }
+
+  .lead-paragraph {
+    text-align: center;
+  }
+
+  .center-sm {
+    text-align: center;
+  }
+}
